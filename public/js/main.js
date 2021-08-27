@@ -96,7 +96,7 @@ const getInfo = async(event) => {
         }catch{
             cityVal = " ";
             datahide.classList.add("data_hide");
-            city_name.innerText =  `please enter the proper city name`;
+            city_name.innerText =  `Please enter the proper city name`;
             console.log('please add the proper city name');
         }
         
